@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sanitize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Demo</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Isian Text</legend>
+            <div class="form-group">
+                <label for="nama">nama:</label>
+                <input type="text" id="nama" placeholder="john smith">
+            </div>
+            <div class="form-group">
+                <label for="email">email:</label>
+                <input type="text" id="email" placeholder="john@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="hp">nomor hp:</label>
+                <input type="tel" id="hp" placeholder="081220220220">
+            </div>
+            <div class="form-group">
+                <label for="umur">umur:</label>
+                <input type="number" id="umur" placeholder="27">
+            </div>
+            <div class="form-group">
+                <label for="url">url:</label>
+                <input type="url" name="url" id="url" placeholder="example.com">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Time</legend>
+            <div class="form-group">
+                <label for="date">tanggal</label>
+                <input type="date" id="date">
+            </div>
+            <div class="form-group">
+                <label for="datetime-local">tanggal local</label>
+                <input type="datetime-local" id="datetime-local">
+            </div>
+            <div class="form-group">
+                <label for="month">month</label>
+                <input type="month" id="month" name="month">
+            </div>
+            <div class="form-group">
+                <label for="week">week</label>
+                <input type="week" id="week">
+            </div>
+            <div class="form-group">
+                <label for="time">time</label>
+                <input type="time" name="time" id="time">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>misc</legend>
+            <div class="form-group">
+                <label for="volume">Volume</label>
+                <input type="range" id="vol" name="vol" min="0" max="100">
+            </div>
+            <div class="form-group">
+                <label for="color">color</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <div class="form-group">
+                <label for="file">file</label>
+                <input type="file" name="file" id="file">
+            </div>
+            <div class="form-group">
+                <label for="hobi">hobi</label>
+                <select name="hobi" id="hobi">
+                    <option>baca</option>
+                    <option>menggambar</option>
+                    <option>berenang</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="laki">laki</label>
+                <input type="radio" id="laki" name="gender">
+                <label for="perempuan">perempuan</label>
+                <input type="radio" id="perempuan" name="gender">
+            </div>
+            <div class="form-group">
+                <label for="sd" name="sd">sd</label>
+                <input type="checkbox" id="sd" name="sd">
+                <label for="smp">smp</label>
+                <input type="checkbox" id="smp" name="smp">
+                <label for="sma">sma</label>
+                <input type="checkbox" id="sma" name="sma">
+            </div>
+            <div class="form-group">
+                <label for="gsearch">search</label>
+                <input type="search" id="gsearch" name="gsearch" placeholder="foo">
+            </div>
+            <div class="form-group">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
